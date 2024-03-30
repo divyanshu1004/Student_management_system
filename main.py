@@ -4,10 +4,10 @@ def create_connection():
     connection = None
     try:
         connection = mysql.connector.connect(
-            host='localhost',
-            user='root',
-            password='qwertyuiop',
-            database='school_management'
+            host='your_host',
+            user='your_usernamee',
+            password='your_password',
+            database='Your_database_name'
         )
         print("Connection to MySQL DB successful")
     except Exception as e:
